@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISO26262 framework</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/software.css">
+    
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header"><a class="navbar-brand navbar-link" href="#">ISO26262 framework</a>
+                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+            </div>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active" role="presentation"><a href="index.html">Overview </a></li>
+                    <li class="dropdown hidden-xs"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">Services <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li role="presentation"><a href="#">Vocabulary </a></li>
+                            <li role="presentation"><a href="#">Management of functional safety</a></li>
+                            <li role="presentation"><a href="#">Concept Phase</a></li>
+                            <li role="presentation"><a href="#" target="_parent">Supporting Processes</a></li>
+                            <li role="presentation"><a href="#">Production &amp; Operation</a></li>
+                            <li role="presentation"><a href="#">ASIL-Oriented &amp; Safety-Orented Process</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">Product development<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li role="presentation"><a href="#">System Level</a></li>
+                            <li role="presentation"><a href="#">Hardware Level</a></li>
+                            <li role="presentation"><a href="software.html">Software Level</a></li>
+                        </ul>
+                    </li>
+                    <li role="presentation"><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- jumbotron -->
+    <div id="promo1">
+        <div class="jumbotron">
+            <h1>ISO26262 framework Product Development</h1>
+            <p>Functional safety features form an integral part of each automotive product development phase, ranging from the specification, to design, implementation, integration, verification, validation, and production release </p>
+            <p><a class="btn btn-default" role="button" href="#">Learn more</a></p>
+        </div>
+    </div>
+    <!-- sidebar navigation -->
+  
+
+    <div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-3 col-lg-3 col-md-3">
+      <!-- <nav class="navbar navbar-btn navbar-fixed-side">
+        <ul class="sidebar-nav nav">
+                <li class=""> <a href="#anch1" data-scroll="" class="">Anchor 1</a>
+                  <ul>
+                    <li></li>
+                  </ul>
+                </li>
+                <li class=""> <a href="#anch2" data-scroll="" class="">Anchor 2</a>
+
+                </li>
+                <li class=""> <a href="#anch3" data-scroll="" class=""> Anchor 3</a>
+
+                </li>
+                <li class=""> <a href="#anch4" data-scroll="" class="">Anchor 4 </a>
+
+                </li>
+            </ul>
+      </nav> -->
+
+        <!-- I was motivated to create this after seeing BhaumikPatel's http://bootsnipp.com/snippets/featured/accordion-menu; I adapted it to a list format rather than a table so that it would be easy to create a nav toggle button when viewed on mobile devices -->
+  <div class="">
+  <div id="sidenav1">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#sideNavbar"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+    </div>
+    <div class="collapse navbar-collapse" id="sideNavbar">
+      <div class="panel-group" id="accordion">
+        
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><span class="glyphicon glyphicon-book"> </span>Software Planning<span class="caret"></span></a> </h4>
+          </div>
+          <!-- Note: By adding "in" after "collapse", it starts with that particular panel open by default; remove if you want them all collapsed by default --> 
+          <div id="collapseOne" class="panel-collapse collapse in">
+            <ul class="list-group">
+              <li><a href="" class="navlink">SDLC Methods and Tools</a></li>
+              <li><a href="" class="navlink">Configuration Data</a></li>
+              <li><a href="" class="navlink">Programming Language</a></li>
+              <li><a href="" class="navlink">Design and Coding Guidelines</a></li>
+              
+            </ul>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><span class="glyphicon glyphicon-cog"> </span>Software Requirements<span class="caret"></span></a> </h4>
+          </div>
+          <div id="collapseTwo" class="panel-collapse collapse">
+            <ul class="list-group">
+              <li><a href="" class="navlink">Derivation</a></li>
+              <li><a href="" class="navlink">specification</a></li>
+              <li><a href="" class="navlink">Tracebility</a></li>
+              <li><a href="" class="navlink">Verification</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree"><span class="glyphicon glyphicon-calendar"> </span>Software Architecture<span class="caret"></span></a> </h4>
+          </div>
+          <div id="collapseThree" class="panel-collapse collapse">
+            <ul class="list-group">
+              
+              <li><a href="" class="navlink">Specification</a></li>
+              <li><a href="" class="navlink">Considerations</a></li>
+              <li><a href="" class="navlink">Error Detection and Handling</a></li>
+              <li><a href="" class="navlink">Dependent Failure Analysis</a></li>
+              <li><a href="" class="navlink">Safety Analysis</a></li>
+              <li><a href="" class="navlink">Verification</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour"><span class="glyphicon glyphicon-user"></span>Software Unit Design<span class="caret"></span></a></h4>
+          </div>
+          <div id="collapseFour" class="panel-collapse collapse">
+            <ul class="list-group">
+              <li><a href="" class="navlink">Specification</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapsefive"><span class="glyphicon glyphicon-user"></span>Software Unit Design & Implementation<span class="caret"></span></a></h4>
+          </div>
+          <div id="collapsefive" class="panel-collapse collapse">
+            <ul class="list-group">
+              <li><a href="" class="navlink">Principles</a></li>
+              <li><a href="" class="navlink">Verification</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapsesix"><span class="glyphicon glyphicon-user"></span>Software Unit Testing<span class="caret"></span></a></h4>
+          </div>
+          <div id="collapsesix" class="panel-collapse collapse">
+            <ul class="list-group">
+              <li><a href="" class="navlink">Methods</a></li>
+              <li><a href="" class="navlink">Test Case Derivation</a></li>
+              <li><a href="" class="navlink">Completeness Measure</a></li>
+              <li><a href="" class="navlink">Test Environment</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseseven"><span class="glyphicon glyphicon-user"></span>Software Integration & Testing<span class="caret"></span></a></h4>
+          </div>
+          <div id="collapseseven" class="panel-collapse collapse">
+            <ul class="list-group">
+              <li><a href="" class="navlink">Planning</a></li>
+              <li><a href="" class="navlink">Methods</a></li>
+              <li><a href="" class="navlink">Test Case Derivation</a></li>
+              <li><a href="" class="navlink">Completeness Measure</a></li>
+              <li><a href="" class="navlink">Test Environment</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseeight"><span class="glyphicon glyphicon-user"></span>Verification of software safety Requirements<span class="caret"></span></a></h4>
+          </div>
+          <div id="collapseeight" class="panel-collapse collapse">
+            <ul class="list-group">
+              <li><a href="" class="navlink">Test Environment</a></li>
+              <li><a href="" class="navlink">Test Result Evalution</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- This is in case you want to add additional links that will only show once the Nav button is engaged; delete if you don't need -->
+        <div class="menu-hide">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title"><a href=""><span class="glyphicon glyphicon-new-window"></span>External Link</a> </h4>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title"><a href=""><span class="glyphicon glyphicon-new-window"></span>External Link</a> </h4>
+            </div>
+          </div>
+        </div>
+        <!-- end hidden Menu items --> 
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="col-sm-9 col-lg-9">
+          
+
+    <!-- COntainer for v shape-->
+    <div class="container">
+  <div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+            1. Initiation of Product Development at SW level
+          </a>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse in">
+        <div class="panel-body">
+          ONe Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+            2. Specification of software safety requirements
+          </a>
+        </h4>
+      </div>
+      <div id="collapse2" class="panel-collapse collapse">
+        <div class="panel-body">
+          Two Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+            3. Software architectural design
+          </a>
+        </h4>
+      </div>
+      <div id="collapse3" class="panel-collapse collapse">
+        <div class="panel-body">
+          Three Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+            4. Software unit design and implementation
+          </a>
+        </h4>
+      </div>
+      <div id="collapse4" class="panel-collapse collapse">
+        <div class="panel-body">
+          Three Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+            5. Software unit testing
+          </a>
+        </h4>
+      </div>
+      <div id="collapse5" class="panel-collapse collapse">
+        <div class="panel-body">
+          Three Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse6">
+            6. Software integration and testing
+          </a>
+        </h4>
+      </div>
+      <div id="collapse6" class="panel-collapse collapse">
+        <div class="panel-body">
+          Three Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse7">
+            7. Verification of software safety requirements
+          </a>
+        </h4>
+      </div>
+      <div id="collapse7" class="panel-collapse collapse">
+        <div class="panel-body">
+          Three Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+ 
+
+    </div>
+  </div>
+</div>
+    
+    
+
+ 
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/software.js"></script>
+</body>
+
+</html>
